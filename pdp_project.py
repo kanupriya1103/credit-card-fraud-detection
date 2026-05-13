@@ -5,7 +5,7 @@ import h5py
 import scipy
 import pandas as pd
 
-hello=pd.read_csv("creditcard2.csv")
+hello=pd.read_csv("creditcard.csv")
 print(hello)
 y=hello[['Class']].to_numpy()
 y_train=y[:227845][:]
