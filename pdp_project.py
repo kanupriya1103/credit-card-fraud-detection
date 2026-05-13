@@ -1,8 +1,4 @@
 import numpy as np
-import copy
-import matplotlib.pyplot as plt
-import h5py
-import scipy
 import pandas as pd
 
 hello=pd.read_csv("creditcard.csv")
